@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SuiteAmazonProduct" verbose="1" parallel="true" >
+    <listeners> </listeners>
+    <test name="Amazon Fetch Products Suite">
+        <classes>
+            <class name="api_calls.amazon_fetchProductAPI"> </class>
+        </classes>
+    </test>
+<!--    <test name="Amazon Newest Products">-->
+<!--        <classes>-->
+<!--            <class name="api_calls.amazon_fetchProductAPI">-->
+<!--                <methods>-->
+<!--                    <include name="fetchProductNEWEST"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
